@@ -1,0 +1,44 @@
+.item-card {
+  margin-bottom: 30px;
+  padding: 0.75rem 1.25rem;
+  justify-content: space-around;
+  background-color: #303030;
+  border-radius: 0.25rem;
+  border: 1px solid #444;
+}
+
+.item-card__img {
+  width: auto;
+  height: auto;
+  min-width: 200px;
+  max-height: 160px;
+  border-radius: 0.45rem;
+  background-image: url('https://starwars-visualguide.com/assets/img/big-placeholder.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.item-card__info {
+  margin-left: 10px;
+}
+
+.item-card__title {
+  font-size: 2rem;
+}
+
+.item-card__desc-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item-card__desc-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+  border-top: 1px solid #444;
+}
+
+.item-card__desc-value {
+  margin-left: 10px;
+}

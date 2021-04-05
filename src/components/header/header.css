@@ -1,0 +1,38 @@
+.header {
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  font-size: 4.5rem;
+}
+
+.header__logo-link {
+  color: white;
+}
+
+.header__logo-link:hover {
+  color: #00bc8c;
+  text-decoration: none;
+}
+
+.header__nav {
+  width: 100%;
+}
+
+.header__menu-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  justify-content: space-around;
+}
+
+.header__menu-link {
+  font-size: 2.2rem;
+}
+
+.header__menu-link:hover {
+  text-decoration: none;
+}

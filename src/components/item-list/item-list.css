@@ -1,0 +1,7 @@
+.item-list {
+  margin-bottom: 20px;
+}
+.list-group-item:hover {
+  cursor: pointer;
+  opacity: 0.4;
+}
