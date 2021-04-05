@@ -1,4 +1,6 @@
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+//Использую HashRouter вместо BrowserRouter в учебных целях, 
+//для корректной работы в build-версии
+import { HashRouter as Router, Route } from 'react-router-dom';
 import React, { Component } from 'react';
 import ErrorBoundry from '../error-boundry';
 import Header from '../header';
